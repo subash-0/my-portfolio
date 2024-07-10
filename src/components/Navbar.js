@@ -28,7 +28,7 @@ const links = [
     useEffect(() => {
         setNav(menuName);
     }, [menuName]);
-  let headerStyle ='text-sm flex justify-center items-center gap-1 transition-all duration-500 font-semibold  bg-white  rounded-xl px-3  group py-2';
+  let headerStyle ='text-sm flex justify-center items-center gap-1 transition-all duration-500 font-semibold  bg-white  rounded-md px-3  group py-2';
 
   return (
 <div className="w-full">
@@ -52,12 +52,12 @@ const links = [
        
       
       </ul>
-      <button onClick={handleDownload}  className="bg-white px-4 py-2 flex justify-center items-center gap-1 ring-1 ring-white rounded-lg drop-shadow-sm hover:drop-shadow-md font-semibold hover:font-bold"> <span className="hidden sm:flex"> <FaFileDownload size={20} /> </span> <span className="sm:hidden md:flex">Download</span> CV </button>
+      <button onClick={handleDownload}  className="bg-black text-white px-4 py-2 flex justify-center items-center gap-1 ring-1 ring-white rounded-lg drop-shadow-md hover:drop-shadow-lg font-semibold hover:font-bold"> <span className="hidden sm:flex"> <FaFileDownload size={20} /> </span> <span className="sm:hidden md:flex">Download</span> CV </button>
       
     </div>
   
   <div className="w-full sm:hidden flex justify-center fixed bottom-1 z-50 px-2 ">
-        <ul className=" w-full h-12 flex justify-between px-2 items-center bg-black/70 rounded-xl text-sm ">
+        <ul className=" w-full h-12 flex justify-between px-2 items-center bg-black/70 rounded-md text-sm ">
         {links.map((link, index) => (
             <li key={index}>
             <Link href={link.path} className={nav===link.path?headerStyle:'p-2 flex justify-center items-center rounded-full'}>

@@ -31,7 +31,7 @@ const Home = () => {
     <motion.div className="h-full  sm:cursor-pointer" initial={{y:"-200vh"}} animate={{y:"0vh"}} transition={{duration:1}} >
     <div className="h-full flex  flex-col sm:flex-row px-4 lg:py-20 justify-center items-center  sm:px-8 md:px-12 lg:px-28 xl:px-48  ">
      <div className="relative w-80 h-96 md:w-96 md:h-64 lg:w-[500px] lg:h-[450px] rounded-lg z-10">
-        <Image src="./subash.png" alt="/" sizes="sm"  priority={true} fill className="object-contain z-10" />
+        <Image src="./subash.png" alt="/" sizes="sm"  priority={true} fill className="object-contain z-10 drop-shadow-[0_35px_35px_rgba(100,100,100,1)]" />
      </div>
      <div className="h-1/2 sm:h-96 sm:w-1/2 flex flex-col z-10 gap-3 sm:gap-8 justify-center items-center">
     <motion.h1 initial={{x:"-200vh"}} animate={{x:"0vh"}} transition={{duration:1}} className=" text-3xl sm:text-4xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">Unleashing Creative Designs with Every Click</motion.h1>
