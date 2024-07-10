@@ -40,7 +40,7 @@ const TransitionProvider = ({children}) => {
             theme="colored"
             />
           </div>
-          <div className="h-[calc(100vh-6rem)]">
+          <div className="h-[calc(100vh-6rem)] w-full">
           {children}
           </div>
        </div>
