@@ -1,9 +1,9 @@
 import { Home } from "@/components";
 
 const Homepage = () => {
-  return <div>
+  return <>
     <Home />
-  </div>;
+  </>;
 };
 
 export default Homepage;
