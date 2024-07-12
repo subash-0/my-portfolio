@@ -14,7 +14,7 @@ const TransitionProvider = ({children}) => {
     exit={{width: "140vw"}}
     transition={{duration: 0.5 , ease: "easeOut"}}
     />
-     <motion.div className="fixed m-auto inset-0 cursor-default bg-red-400 px-3 rounded-lg text-white text-8xl z-50 w-fit h-fit"
+     <motion.div className="fixed m-auto inset-0 cursor-default bg-red-400 px-3 rounded-sm text-white text-8xl z-50 w-fit h-fit"
     initial={{opacity: 1}}
     animate={{opacity: 0}}
     exit={{opacity: 1}}

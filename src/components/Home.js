@@ -32,7 +32,7 @@ const Home = () => {
       <div className="h-full flex  flex-col sm:flex-row px-4   justify-center items-center  sm:px-8 md:px-12 lg:px-28 xl:px-48  ">
         <div className="relative w-80 h-96 md:w-96 md:h-64 lg:w-[800px] lg:h-[800px] max-w-full max-h-full rounded-lg z-10">
           <Image
-            src="./subash1.png"
+            src="/subash1.png"
             alt="/"
             sizes="sm"
             priority={true}
