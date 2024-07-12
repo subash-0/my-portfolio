@@ -45,7 +45,7 @@ const Home = () => {
             initial={{ x: "-200vh" }}
             animate={{ x: "0vh" }}
             transition={{ duration: 1 }}
-            className=" text-3xl sm:text-4xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent "
+            className=" text-3xl sm:text-4xl animate-pulse  font-bold from-green-800 via-pink-800 to-black bg-gradient-to-r bg-clip-text text-transparent "
           >
             Unleashing Creative Designs with Every Click
           </motion.h1>
